@@ -1,0 +1,23 @@
+[user]
+	email = jispoop@gmail.com
+	name = doYoungAn
+[alias]
+   	co = checkout
+	rb = rebase -i
+	st = status
+	cm = commit
+	pl = pull
+	ps = push
+	lg = log --graph --abbrev-commit --decorate --format=format:'%C(cyan)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(yellow)%d%C(reset)' --all
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	ad = add
+	tg = tag -n
+	df = diff
+	br = branch
+	gbr = "!git branch | grep -v "master" | xargs git branch -D"
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
