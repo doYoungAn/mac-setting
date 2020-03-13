@@ -1,0 +1,53 @@
+{
+	"React FC Page": {
+		"prefix": "fc-page",
+		"body": [
+			"import React, { FC, useEffet } from 'react';",
+			"import { RouteComponentProps } from 'react-router-dom';",
+			"",
+			"interface ISamplePageProps extends RouteComponentProps {}",
+			"",
+			"const SamplePage: FC<ISamplePageProps> = (): JSX.Element => {",
+			"  ",
+			"  useEffet(() => {",
+			"",
+			"  }, []);",
+			"",
+			"  return (",
+			"    <>",
+			"",
+			"    </>",
+			"  );",
+			"",
+			"};",
+			"",
+			"export default SamplePage;"
+		],
+		"description": "리액트 함수형 페이지"
+	},
+	"React FC Component": {
+		"prefix": "fc-component",
+		"body": [
+			"import React, { FC, useEffet } from 'react';",
+			"",
+			"interface ISampleProps {}",
+			"",
+			"const Sample: FC<ISampleProps> = (): JSX.Element => {",
+			"  ",
+			"  useEffet(() => {",
+			"",
+			"  }, []);",
+			"",
+			"  return (",
+			"    <>",
+			"",
+			"    </>",
+			"  );",
+			"",
+			"};",
+			"",
+			"export default Sample;"
+		],
+		"description": "리액트 함수형 컴포넌트"
+	}
+}
