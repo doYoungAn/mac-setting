@@ -10,4 +10,6 @@ echo "typescriptreact.json file..."
 cat ./vscode/typescriptreact.json
 echo "----------------------------"
 
-cp -r ./vscode/typescript.json ~/Library/Appliaction\ Support/Code/User/snippets/a.json
+cp ./vscode/typescript.json ~/Library/Application\Support/Code/User/snippets
+cp ./vscode/typescriptreact.json ~/Library/Application\Support/Code/User/snippets
+
