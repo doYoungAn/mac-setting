@@ -2,14 +2,14 @@
 	"React FC Page": {
 		"prefix": "fc-page",
 		"body": [
-			"import React, { FC, useEffet } from 'react';",
+			"import React, { FC, useEffect } from 'react';",
 			"import { RouteComponentProps } from 'react-router-dom';",
 			"",
 			"interface ISamplePageProps extends RouteComponentProps {}",
 			"",
 			"const SamplePage: FC<ISamplePageProps> = (): JSX.Element => {",
 			"  ",
-			"  useEffet(() => {",
+			"  useEffect(() => {",
 			"",
 			"  }, []);",
 			"",
@@ -28,13 +28,13 @@
 	"React FC Component": {
 		"prefix": "fc-component",
 		"body": [
-			"import React, { FC, useEffet } from 'react';",
+			"import React, { FC, useEffect } from 'react';",
 			"",
 			"interface ISampleProps {}",
 			"",
 			"const Sample: FC<ISampleProps> = (): JSX.Element => {",
 			"  ",
-			"  useEffet(() => {",
+			"  useEffect(() => {",
 			"",
 			"  }, []);",
 			"",
