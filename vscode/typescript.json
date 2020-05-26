@@ -1,3 +1,13 @@
 {
-  
+  "Express Router": {
+    "prefix": "express-router",
+    "body": [
+      "import { Router } from 'express';",
+      " ",
+      "const router = Router();",
+      " ",
+      "export default router;"
+    ],
+    "description": "Express 분리된 라우트"
+  }
 }
